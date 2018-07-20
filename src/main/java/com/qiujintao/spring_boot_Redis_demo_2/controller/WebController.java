@@ -22,7 +22,7 @@ public class WebController {
 	
 	@RequestMapping("/")
 	public String index() {
-		return "index";
+		return "index.html";
 	}
 	
 	@RequestMapping("/keys")
